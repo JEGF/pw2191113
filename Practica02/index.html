@@ -3,12 +3,13 @@
 <head>
 	<meta charset="UTF-8"> 
 	<title>Práctica02 HTML5+CSS3</title>
+	<link rel="stylesheet" type="text/css" href="css/estilos.css">
 </head>
 <body>
 	<header>
 		<img src="img/banner.png">
-		<img src="img/granthams.png">
-		<img src="img/paint.png">
+		<img src="img/granthams.png" id="granthams">
+		<img src="img/paint.png" id="paint">
 		<input type="search" placeholder="Search">
 		<nav>
 			<ul>
@@ -20,12 +21,14 @@
 			</ul>
 		</nav>
 	</header>
-	<section>
-		<article>
+	<section id="primerSeccion">
+		<article id="secc01art01">
 			<img src="img/slide.jpg">
 		</article>
-		<article>
-			We can offer...
+		<article id="secc01art02">
+			<span class="colorrosa letragrande nito">
+			    We can offer...
+			</span>
 			<ul>
 				<li>Highly Com[etitive Prices</li>
 				<li>Variable Data</li>
@@ -37,25 +40,33 @@
 				<li>Great Customer Service</li>
 			</ul>
 		</article>
-		<img src="img/bg_offer.png">
+		<img src="img/bg_offer.png" id="bg_offer">
 	</section>
-	<section>
+	<section id="segundaSeccion">
 		<article>
-			01772 250207
+			<span class="colorrosa letramediana nito">
+			    01772 250207
+			</span>
 		</article>
 	</section>
-	<section>
+	<section id="terceraSeccion">
 		<article>
 			<img src="img/cerdito.png">
-			Save this Spring
+			<span class="colorrosa nito">
+				Save this Spring
+			</span>	
 			<br>
 			Fabulous discounts on canva's and roll up's as well as many offers
 			<p>
-		    Find out more...
+			<span>
+		    	Find out more...
+		    </span>
 		</article>
 		<article>
 			<img src="img/hoja.png">
-			ECO Friendly
+			<span class="colorverde ni">	
+				ECO Friendly
+			</span>
 			<br>
 			ECO Friendly Materials used in our production process.
 			<br>
@@ -64,14 +75,20 @@
 		</article>
 		<article>
 			<img src="img/new.png">
-			Upload your file
+			<span class="colorazul nito">
+				Upload your file
+			</span>
 			<br>
 			Making it easy to order your printing today. Our upload facility enables you to send your file directly to us. Use the notes section to imform us of your order, then sit back and wait for member of our team to contact you.
 			<p>
-			UPload Your File Now...
+			<span class="colorazul">
+				Upload Your File Now...
+			</span>
 		</article>
 		<article>
-			Stay in touch
+			<span class="colorrosa letramediana">
+				Stay in touch
+			</span>
 			<br>
 			join our mailing list today
 			<br>

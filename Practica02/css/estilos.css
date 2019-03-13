@@ -21,6 +21,14 @@ header nav ul li{
 header nav{
 	margin-left: 220px;
 }
+footer{
+	background: #3b64b7;
+	color:white;
+}
+footer section article{
+	display: inline-block;
+	vertical-align: top;
+}
 #bg_offer{
 	left: -35px;
 	position: relative;
@@ -56,12 +64,42 @@ header nav{
 	content: "• ";
 	color:#FF0099
 }
+#secc03art04{
+	/*margin-top: 40px;*/
+	padding-top: 40px;
+}
 #segundaSeccion article{
 	margin-right: 165px;
 	text-align: right;
 }
+#terceraSeccion article{
+    display: inline-block;
+    vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
+#footerSeccion{
+	background: #3b64b7;
+	color: white;
+
+}
 .colorrosa{
-	color:#FF0099;
+	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
+}
+.colorazul{
+	color: #4267B3;
 }
 .letragrande{
 	font-size: 3.5em;

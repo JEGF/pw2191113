@@ -67,7 +67,7 @@ header ul li{
 }
 #sec01art01{
 	display: inline-block;
-	vertical-align: top;
+	vertical-align: bottom;
 	width: 52%;
 }
 #sec01art01art01{
@@ -76,7 +76,9 @@ header ul li{
 #sec01art01art01 p{
 	color: #848484;
 }
-#sec01art01art02 img{
+#sec01art01art02 {
+
+}#sec01art01art02 img{
 	width: 250px;
 }
 #sec01art02{
@@ -104,6 +106,7 @@ header ul li{
 	vertical-align: center;
 }
 #seccion03{
+	margin-top: 50px;
 	color: #9b9b9b;
 }
 #seccion03 article{

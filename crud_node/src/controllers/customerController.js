@@ -7,8 +7,14 @@ controller.list = (req,res) => {
 				res.json(err);
 			}
 			console.log(customers);
+			res.render('customer',{
+				data:customers
+			})
 		})
 	})
+}
+controller.save = (req,res)=>{
+	
 }
 
 module.exports = controller;

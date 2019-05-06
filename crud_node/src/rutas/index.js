@@ -9,7 +9,7 @@ const customerController = require('../controllers/customerController');
 
 rutas.get('/',customerController.list);
 //rutas.post('/add', customerController.delete);
-//rutas.get('/delete', customerController.save);
+rutas.get('/delete', customerController.save);
 //rutas.get('/update/:id', customerController.edit);
 //rutas.post('/update/:id', customerController.update);
 
